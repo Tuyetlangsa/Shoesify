@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "cyQtk5u4N3o=",
+  "dgSpecHash": "BKjg1RNMpW0=",
   "success": true,
   "projectFilePath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tuyetlangsa\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\tuyetlangsa\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\tuyetlangsa\\.nuget\\packages\\fluentvalidation\\12.0.0-preview1\\fluentvalidation.12.0.0-preview1.nupkg.sha512",
     "C:\\Users\\tuyetlangsa\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.12\\microsoft.aspnetcore.authentication.jwtbearer.8.0.12.nupkg.sha512",
     "C:\\Users\\tuyetlangsa\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.0\\microsoft.aspnetcore.http.2.3.0.nupkg.sha512",
     "C:\\Users\\tuyetlangsa\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
