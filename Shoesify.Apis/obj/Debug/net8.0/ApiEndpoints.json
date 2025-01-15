@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shoesify.Apis.Controllers.InventoryController",
+    "Method": "CreateInventory",
+    "RelativePath": "api/Inventory/inventory/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Shoesify.Services.Requests.CreateInventoryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
