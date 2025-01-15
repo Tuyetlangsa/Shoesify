@@ -17,6 +17,8 @@ public partial class Inventory
 
     public virtual ICollection<Export> Exports { get; set; } = new List<Export>();
 
+    public virtual ICollection<Import> Imports { get; set; } = new List<Import>();
+
     public virtual ICollection<Stock> Stocks { get; set; } = new List<Stock>();
 
     public virtual User? User { get; set; }
