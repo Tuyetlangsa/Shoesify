@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj": {}
+    "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj": {
+    "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj",
+        "projectUniqueName": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj",
         "projectName": "Shoesify.Apis",
-        "projectPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj",
-        "packagesPath": "C:\\Users\\tuyetlangsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\obj\\",
+        "projectPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Apis\\Shoesify.Apis.csproj",
+        "packagesPath": "C:\\Users\\THANH AN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Apis\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tuyetlangsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\THANH AN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,17 +22,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj": {
-                "projectPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj"
+              "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj": {
+                "projectPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj"
               },
-              "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj": {
-                "projectPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj"
+              "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj": {
+                "projectPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj"
               }
             }
           }
@@ -49,7 +46,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -80,25 +77,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj": {
+    "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
         "projectName": "Shoesify.Entities",
-        "projectPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
-        "packagesPath": "C:\\Users\\tuyetlangsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\obj\\",
+        "projectPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
+        "packagesPath": "C:\\Users\\THANH AN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tuyetlangsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\THANH AN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -106,6 +99,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -122,7 +116,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -166,25 +160,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj": {
+    "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
+        "projectUniqueName": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
         "projectName": "Shoesify.Services",
-        "projectPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
-        "packagesPath": "C:\\Users\\tuyetlangsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\obj\\",
+        "projectPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
+        "packagesPath": "C:\\Users\\THANH AN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tuyetlangsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\THANH AN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -192,14 +182,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj": {
-                "projectPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj"
+              "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj": {
+                "projectPath": "C:\\Users\\THANH AN\\OneDrive\\Máy tính\\ojt\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj"
               }
             }
           }
@@ -212,7 +203,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -256,7 +247,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,49 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\",
+  "WorkspaceRootPath": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.apis\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|solutionrelative:shoesify.apis\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F221650-2834-4752-A977-1229AD14761C}|Shoesify.Entities\\Shoesify.Entities.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.entities\\models\\importdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F221650-2834-4752-A977-1229AD14761C}|Shoesify.Entities\\Shoesify.Entities.csproj|solutionrelative:shoesify.entities\\models\\importdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.services\\abstractions\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\abstractions\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.apis\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|solutionrelative:shoesify.apis\\controllers\\importcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.apis\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|solutionrelative:shoesify.apis\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F221650-2834-4752-A977-1229AD14761C}|Shoesify.Entities\\Shoesify.Entities.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.entities\\models\\shoesifycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F221650-2834-4752-A977-1229AD14761C}|Shoesify.Entities\\Shoesify.Entities.csproj|solutionrelative:shoesify.entities\\models\\shoesifycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.services\\shoesify.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\shoesify.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|solutionrelative:shoesify.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.services\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.services\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.services\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.apis\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|solutionrelative:shoesify.apis\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.services\\abstractions\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\abstractions\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.apis\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}|Shoesify.Apis\\Shoesify.Apis.csproj|solutionrelative:shoesify.apis\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.services\\shoesify.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\shoesify.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.services\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\requests\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E69827BA-9D3C-41C8-BD83-70B614A518C5}|Shoesify.Services\\Shoesify.Services.csproj|solutionrelative:shoesify.services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F221650-2834-4752-A977-1229AD14761C}|Shoesify.Entities\\Shoesify.Entities.csproj|c:\\users\\tuyetlangsa\\riderprojects\\shoesify\\shoesify.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F221650-2834-4752-A977-1229AD14761C}|Shoesify.Entities\\Shoesify.Entities.csproj|c:\\users\\thanh an\\onedrive\\m\u00E1y t\u00EDnh\\ojt\\shoesify\\shoesify.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F221650-2834-4752-A977-1229AD14761C}|Shoesify.Entities\\Shoesify.Entities.csproj|solutionrelative:shoesify.entities\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -54,15 +66,91 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ImportDetail.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Entities\\Models\\ImportDetail.cs",
+              "RelativeDocumentMoniker": "Shoesify.Entities\\Models\\ImportDetail.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Entities\\Models\\ImportDetail.cs",
+              "RelativeToolTip": "Shoesify.Entities\\Models\\ImportDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:04:09.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ShoesifyContext.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Entities\\Models\\ShoesifyContext.cs",
+              "RelativeDocumentMoniker": "Shoesify.Entities\\Models\\ShoesifyContext.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Entities\\Models\\ShoesifyContext.cs",
+              "RelativeToolTip": "Shoesify.Entities\\Models\\ShoesifyContext.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwCkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:01:43.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImportController.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Controllers\\ImportController.cs",
+              "RelativeDocumentMoniker": "Shoesify.Apis\\Controllers\\ImportController.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Controllers\\ImportController.cs",
+              "RelativeToolTip": "Shoesify.Apis\\Controllers\\ImportController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T13:00:42.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Shoesify.Services\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\DependencyInjection.cs",
+              "RelativeToolTip": "Shoesify.Services\\DependencyInjection.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:36:03.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Program.cs",
+              "RelativeDocumentMoniker": "Shoesify.Apis\\Program.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Program.cs",
+              "RelativeToolTip": "Shoesify.Apis\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:42:36.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "Shoesify.Apis\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "Shoesify.Apis\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:46:03.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Controllers\\AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "Shoesify.Apis\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Apis\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Shoesify.Apis\\Controllers\\AuthenticationController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -71,137 +159,87 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InventoryController.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Controllers\\InventoryController.cs",
-              "RelativeDocumentMoniker": "Shoesify.Apis\\Controllers\\InventoryController.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Controllers\\InventoryController.cs",
-              "RelativeToolTip": "Shoesify.Apis\\Controllers\\InventoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:46:03.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shoesify.Services",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
+              "DocumentIndex": 9,
+              "Title": "Shoesify.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
               "RelativeDocumentMoniker": "Shoesify.Services\\Shoesify.Services.csproj",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\Shoesify.Services.csproj",
               "RelativeToolTip": "Shoesify.Services\\Shoesify.Services.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-15T03:43:09.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IInventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Abstractions\\IInventoryService.cs",
-              "RelativeDocumentMoniker": "Shoesify.Services\\Abstractions\\IInventoryService.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Abstractions\\IInventoryService.cs",
-              "RelativeToolTip": "Shoesify.Services\\Abstractions\\IInventoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:43:53.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InventoryService.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\InventoryService.cs",
-              "RelativeDocumentMoniker": "Shoesify.Services\\InventoryService.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\InventoryService.cs",
-              "RelativeToolTip": "Shoesify.Services\\InventoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:43:42.74Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Program.cs",
-              "RelativeDocumentMoniker": "Shoesify.Apis\\Program.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Apis\\Program.cs",
-              "RelativeToolTip": "Shoesify.Apis\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:42:36.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthenticationService.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\AuthenticationService.cs",
-              "RelativeDocumentMoniker": "Shoesify.Services\\AuthenticationService.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\AuthenticationService.cs",
-              "RelativeToolTip": "Shoesify.Services\\AuthenticationService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:36:08.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T03:43:09.602Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "LoginRequest.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Requests\\LoginRequest.cs",
-              "RelativeDocumentMoniker": "Shoesify.Services\\Requests\\LoginRequest.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\Requests\\LoginRequest.cs",
-              "RelativeToolTip": "Shoesify.Services\\Requests\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\Abstractions\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "Shoesify.Services\\Abstractions\\IInventoryService.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\Abstractions\\IInventoryService.cs",
+              "RelativeToolTip": "Shoesify.Services\\Abstractions\\IInventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:36:06.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T03:43:53.502Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "Shoesify.Services\\DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\DependencyInjection.cs",
-              "RelativeToolTip": "Shoesify.Services\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\InventoryService.cs",
+              "RelativeDocumentMoniker": "Shoesify.Services\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\InventoryService.cs",
+              "RelativeToolTip": "Shoesify.Services\\InventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:36:03.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T03:43:42.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "JwtTokenService.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\JwtTokenService.cs",
-              "RelativeDocumentMoniker": "Shoesify.Services\\JwtTokenService.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Services\\JwtTokenService.cs",
-              "RelativeToolTip": "Shoesify.Services\\JwtTokenService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "Shoesify.Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\AuthenticationService.cs",
+              "RelativeToolTip": "Shoesify.Services\\AuthenticationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:36:00.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T03:36:08.324Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\Requests\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Shoesify.Services\\Requests\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\Requests\\LoginRequest.cs",
+              "RelativeToolTip": "Shoesify.Services\\Requests\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:36:06.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "Shoesify.Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Services\\JwtTokenService.cs",
+              "RelativeToolTip": "Shoesify.Services\\JwtTokenService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T03:36:00.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Entities\\Models\\User.cs",
               "RelativeDocumentMoniker": "Shoesify.Entities\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\THANH AN\\OneDrive\\M\u00E1y t\u00EDnh\\ojt\\Shoesify\\Shoesify.Entities\\Models\\User.cs",
               "RelativeToolTip": "Shoesify.Entities\\Models\\User.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T03:07:58.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-15T03:07:58.528Z"
             }
           ]
         }
