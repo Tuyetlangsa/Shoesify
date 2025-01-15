@@ -4735,23 +4735,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tuyetlangsa\\.nuget\\packages\\": {},
+    "C:\\Users\\dangk\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
+      "projectUniqueName": "D:\\CODES\\GitHub\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
       "projectName": "Shoesify.Entities",
-      "projectPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
-      "packagesPath": "C:\\Users\\tuyetlangsa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tuyetlangsa\\RiderProjects\\Shoesify\\Shoesify.Entities\\obj\\",
+      "projectPath": "D:\\CODES\\GitHub\\Shoesify\\Shoesify.Entities\\Shoesify.Entities.csproj",
+      "packagesPath": "C:\\Users\\dangk\\.nuget\\packages\\",
+      "outputPath": "D:\\CODES\\GitHub\\Shoesify\\Shoesify.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tuyetlangsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dangk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4776,7 +4776,7 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
       "SdkAnalysisLevel": "9.0.100"
     },
@@ -4821,7 +4821,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

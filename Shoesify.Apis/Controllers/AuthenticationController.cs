@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Shoesify.Apis.Common;
-using Shoesify.Services;
+using Shoesify.Entities.Models;
 using Shoesify.Services.Requests;
+using Shoesify.Services.UserService;
 
 namespace Shoesify.Apis.Controllers;
 
@@ -36,4 +37,21 @@ public class AuthenticationController : Controller
       });
     }
   }
+
+    [HttpPost("register")]
+    public IActionResult Register([FromBody] RegisterRequest request)
+    {
+        if (_authenticationService.GetUserByEMail(request.email)!=null)
+        {
+            return BadRequest("Email address is already registered");
+        }
+        User u = new User
+        {
+            Name = request.name,
+            Email = request.email,
+            Password = request.password,
+        };
+        _authenticationService.AddUser(u);
+        return Ok(u);
+    }
 }

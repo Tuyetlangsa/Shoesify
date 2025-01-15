@@ -8,6 +8,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Shoesify.Entities\Shoesify.Entities.csproj" />
+      <ProjectReference Include="..\Shoesify.Repository\Shoesify.Repository.csproj" />
     </ItemGroup>
 
     <ItemGroup>

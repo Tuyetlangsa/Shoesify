@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoesify.Entities", "Shoesify.Entities\Shoesify.Entities.csproj", "{5F221650-2834-4752-A977-1229AD14761C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoesify.Services", "Shoesify.Services\Shoesify.Services.csproj", "{E69827BA-9D3C-41C8-BD83-70B614A518C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoesify.Apis", "Shoesify.Apis\Shoesify.Apis.csproj", "{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoesify.Repository", "Shoesify.Repository\Shoesify.Repository.csproj", "{7506A322-239E-44E7-8518-BC116AE2E599}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,12 @@ Global
 		{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EC68D40-5821-49CA-8E1D-60CDD70EBAD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7506A322-239E-44E7-8518-BC116AE2E599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7506A322-239E-44E7-8518-BC116AE2E599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7506A322-239E-44E7-8518-BC116AE2E599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7506A322-239E-44E7-8518-BC116AE2E599}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

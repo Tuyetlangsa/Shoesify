@@ -12,6 +12,7 @@
           "Microsoft.AspNetCore.Http": "2.3.0",
           "Microsoft.IdentityModel.Tokens": "8.3.0",
           "Shoesify.Entities": "1.0.0",
+          "Shoesify.Repository": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "8.3.0"
         },
         "runtime": {
@@ -660,6 +661,19 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Shoesify.Repository/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
+          "Shoesify.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Shoesify.Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1083,6 +1097,11 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "Shoesify.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Shoesify.Repository/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

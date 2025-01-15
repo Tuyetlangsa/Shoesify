@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Shoesify.Entities.Models;
 
-namespace Shoesify.Services;
+namespace Shoesify.Services.UserService;
 
 public class JwtTokenService
 {
@@ -42,7 +42,7 @@ public class JwtTokenService
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
-    
+
     public (int userId, string role) GetIdAndRoleFromToken()
     {
         var user = _httpContextAccessor.HttpContext!.User;
@@ -53,4 +53,5 @@ public class JwtTokenService
             throw new UnauthorizedAccessException("Invalid Token Claims");
         return (int.Parse(userId), role);
     }
+
 }

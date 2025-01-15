@@ -4,7 +4,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Shoesify.Entities.Models;
+using Shoesify.Repository.Users;
 using Shoesify.Services;
+using Shoesify.Services.UserService;
 
 namespace Shoesify.Apis;
 
@@ -31,6 +33,9 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.AddAuthenticationServices();
+        builder.Services.AddScoped<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<UserService, UserService>();
+
         
         var app = builder.Build();
 
