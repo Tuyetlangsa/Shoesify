@@ -1,0 +1,6 @@
+@Shoesify.Apis_HostAddress = http://localhost:5080
+
+GET {{Shoesify.Apis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
