@@ -93,4 +93,4 @@ C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Apis\obj\Debug\net8.0\refin
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Apis\obj\Debug\net8.0\Shoesify.Apis.pdb
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Apis\obj\Debug\net8.0\Shoesify.Apis.genruntimeconfig.cache
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Apis\obj\Debug\net8.0\ref\Shoesify.Apis.dll
-C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Apis\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Apis\obj\Debug\net8.0\Shoesify.Apis.sourcelink.json

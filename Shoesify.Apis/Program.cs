@@ -31,7 +31,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.AddAuthenticationServices();
-        
+        builder.AddServices();
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

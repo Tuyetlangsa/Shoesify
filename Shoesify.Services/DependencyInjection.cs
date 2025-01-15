@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using Shoesify.Services.Abstractions;
 
 namespace Shoesify.Services;
 
@@ -34,5 +35,8 @@ public static class DependencyInjection
         builder.Services.AddScoped<AuthenticationService>();
     }
     
-    
+    public static void AddServices(this IHostApplicationBuilder builder)
+    {
+        builder.Services.AddScoped<IInventoryService, InventoryService>();
+    }
 }

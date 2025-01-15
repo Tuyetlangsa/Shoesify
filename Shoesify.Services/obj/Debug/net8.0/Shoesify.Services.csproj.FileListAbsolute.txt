@@ -13,3 +13,4 @@ C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Services\obj\Debug\net8.0\S
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Services\obj\Debug\net8.0\refint\Shoesify.Services.dll
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Services\obj\Debug\net8.0\Shoesify.Services.pdb
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Services\obj\Debug\net8.0\ref\Shoesify.Services.dll
+C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Services\obj\Debug\net8.0\Shoesify.Services.sourcelink.json

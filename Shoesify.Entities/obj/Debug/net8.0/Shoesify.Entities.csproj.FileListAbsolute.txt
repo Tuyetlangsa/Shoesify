@@ -12,3 +12,4 @@ C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Entities\obj\Debug\net8.0\r
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Entities\obj\Debug\net8.0\Shoesify.Entities.pdb
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Entities\obj\Debug\net8.0\Shoesify.Entities.genruntimeconfig.cache
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Entities\obj\Debug\net8.0\ref\Shoesify.Entities.dll
+C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Entities\obj\Debug\net8.0\Shoesify.Entities.sourcelink.json
