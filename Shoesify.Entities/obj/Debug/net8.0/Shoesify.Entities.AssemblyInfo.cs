@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shoesify.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+591e541131970d0e90ea41afd5991e1912ec2469")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2964dccca51b3167cfe28fc95c962d7edefceb5")]
->>>>>>> master
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1d5768b0a824e4f3f281bc74c815b952ed3b771")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shoesify.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shoesify.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

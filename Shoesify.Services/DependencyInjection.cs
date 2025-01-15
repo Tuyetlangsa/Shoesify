@@ -41,6 +41,7 @@ public static class DependencyInjection
     public static void AddServices(this IHostApplicationBuilder builder)
     {
         builder.Services.AddScoped<IInventoryService, InventoryService>();
+        builder.Services.AddScoped<IExportService, ExportService>();
     }
 
     public static void AddValidators(this IHostApplicationBuilder builder)

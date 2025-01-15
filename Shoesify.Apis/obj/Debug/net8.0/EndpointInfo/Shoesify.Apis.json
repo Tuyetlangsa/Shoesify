@@ -36,6 +36,59 @@
         }
       }
     },
+    "/api/Export/export/create": {
+      "post": {
+        "tags": [
+          "Export"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateExportRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateExportRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateExportRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Export/export/{exportId}": {
+      "get": {
+        "tags": [
+          "Export"
+        ],
+        "parameters": [
+          {
+            "name": "exportId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Inventory/inventory/create": {
       "post": {
         "tags": [
@@ -70,6 +123,27 @@
   },
   "components": {
     "schemas": {
+      "CreateExportRequest": {
+        "type": "object",
+        "properties": {
+          "inventoryId": {
+            "type": "string",
+            "nullable": true
+          },
+          "exportDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "details": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExportDetailRequest"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "CreateInventoryRequest": {
         "type": "object",
         "properties": {
@@ -84,6 +158,20 @@
           "location": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ExportDetailRequest": {
+        "type": "object",
+        "properties": {
+          "shoeDetailId": {
+            "type": "string",
+            "nullable": true
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Shoesify.Entities.Models;
+using Shoesify.Services.Abstractions;
 using Shoesify.Services.Requests;
 using Shoesify.Services.Responses;
 using System;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace Shoesify.Services
 {
-    public class ExportService
+    public class ExportService : IExportService
     {
         private readonly ShoesifyContext _context;
         private readonly JwtTokenService _jwtTokenService;
@@ -22,19 +23,18 @@ namespace Shoesify.Services
         }
         public async Task<int> CreateExport(CreateExportRequest request)
         {          
-            (string userId, string role) = _jwtTokenService.GetIdAndRoleFromToken();
+            //(string userId, string role) = _jwtTokenService.GetIdAndRoleFromToken();
    
-
             var export = new Export
             {
+                ExportId = GenerateShortUniqueId(),
                 InventoryId = request.InventoryId,
                 ExportDate = request.ExportDate
             };
 
             _context.Exports.Add(export);
             await _context.SaveChangesAsync(); 
-
-       
+     
             foreach (var detail in request.Details)
             {
               
@@ -90,7 +90,10 @@ namespace Shoesify.Services
 
             return exportResponse;
         }
-
+        private string GenerateShortUniqueId()
+        {
+            return Guid.NewGuid().ToString("N").Substring(0, 10);
+        }
 
     }
 }

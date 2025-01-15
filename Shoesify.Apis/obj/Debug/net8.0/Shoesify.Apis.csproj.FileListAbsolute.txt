@@ -195,3 +195,4 @@ C:\Users\Admin\Source\Repos\Shoesify\Shoesify.Apis\obj\Debug\net8.0\ref\Shoesify
 =======
 C:\Users\tuyetlangsa\RiderProjects\Shoesify\Shoesify.Apis\bin\Debug\net8.0\FluentValidation.dll
 >>>>>>> master
+C:\Users\Admin\Source\Repos\Shoesify\Shoesify.Apis\bin\Debug\net8.0\FluentValidation.dll

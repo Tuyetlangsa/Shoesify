@@ -16,6 +16,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Shoesify.Apis.Controllers.ExportController",
+    "Method": "GetExportDetails",
+    "RelativePath": "api/Export/export/{exportId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exportId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Shoesify.Apis.Controllers.ExportController",
+    "Method": "CreateExport",
+    "RelativePath": "api/Export/export/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Shoesify.Services.Requests.CreateExportRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Shoesify.Apis.Controllers.InventoryController",
     "Method": "CreateInventory",
     "RelativePath": "api/Inventory/inventory/create",
