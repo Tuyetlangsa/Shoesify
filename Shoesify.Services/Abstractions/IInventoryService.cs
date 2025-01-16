@@ -10,6 +10,9 @@ namespace Shoesify.Services.Abstractions
 {
     public interface IInventoryService
     {
-        public  Task<int> CreateAnInventory(CreateInventoryRequest inventory);
+        public Task<int> CreateAnInventory(CreateInventoryRequest inventory);
+        public Task<List<Inventory>> ReadAllInventory();
+        public Task<bool> UpdateInventory(UpdateInventoryRequest updatedInventory);
+        public Task<bool> DisableInventory(DisableInventoryRequest inventory);
     }
 }

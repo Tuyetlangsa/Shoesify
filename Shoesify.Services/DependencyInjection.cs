@@ -51,7 +51,12 @@ public static class DependencyInjection
     public static void AddValidators(this IHostApplicationBuilder builder)
     {
         builder.Services.AddScoped<IValidator<CreateInventoryRequest>, CreateInventoryRequestValidator>();
+
+        builder.Services.AddScoped<IValidator<UpdateInventoryRequest>, UpdateInventoryRequestValidator>();
+        builder.Services.AddScoped<IValidator<DisableInventoryRequest>, DisableInventoryRequestValidator>();
+
         builder.Services.AddScoped<IValidator<ImportRequest>, CreateImportValidation>();
         builder.Services.AddScoped<IValidator<ImportDetailRequest>, CreateImportDetailValidation>();
+
     }
 }
