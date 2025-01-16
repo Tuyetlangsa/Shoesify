@@ -11,7 +11,11 @@ public partial class Import
 
     public DateOnly? ImportDate { get; set; }
 
+    public string? InventoryId { get; set; }
+
     public virtual ICollection<ImportDetail> ImportDetails { get; set; } = new List<ImportDetail>();
+
+    public virtual Inventory? Inventory { get; set; }
 
     public virtual Supplier? Supplier { get; set; }
 }
