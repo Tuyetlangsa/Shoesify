@@ -33,6 +33,14 @@ public class Program
         builder.AddAuthenticationServices();
         builder.AddValidators();
         builder.AddServices();
+        builder.Services.AddCors(options =>
+        {
+            options.AddDefaultPolicy(policy =>
+                policy.WithOrigins("http://localhost:9999") 
+                      .AllowAnyHeader()
+                      .AllowAnyMethod()
+                      .AllowCredentials()); // If you're using credentials (cookies, Authorization headers, etc.)
+        });
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
