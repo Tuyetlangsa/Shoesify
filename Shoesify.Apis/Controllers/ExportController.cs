@@ -82,5 +82,28 @@ namespace Shoesify.Apis.Controllers
                 return StatusCode(500, new ApiResponse() { Message = ex.Message });
             }
         }
+
+
+        [HttpGet("/exports/inventory/{inventoryId}")]
+        public async Task<IActionResult> GetAllExportByInventoryId(string inventoryId)
+        {
+            try
+            {
+                GetAllExportRequest request = new GetAllExportRequest(inventoryId);
+                var result = await _exportService.GetAllExportOfInventory(request);
+                if (result == null || result.Count == 0)
+                {
+                    return NotFound(new ApiResponse()
+                    {
+                        Message = "No exports found for the given inventory ID"
+                    });
+                }
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, new ApiResponse() { Message = e.Message });
+            }
+        }
     }
 }

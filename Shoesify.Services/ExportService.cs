@@ -3,8 +3,10 @@ using Shoesify.Entities.Models;
 using Shoesify.Services.Abstractions;
 using Shoesify.Services.Requests;
 using Shoesify.Services.Responses;
+using Shoesify.Services.Validators;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -93,6 +95,36 @@ namespace Shoesify.Services
         private string GenerateShortUniqueId()
         {
             return Guid.NewGuid().ToString("N").Substring(0, 10);
+        }
+
+        public async Task<List<ExportResponse>> GetAllExportOfInventory(GetAllExportRequest request)
+        {
+            var validator = new GetAllExportRequestValidator();
+            var validationResult = await validator.ValidateAsync(request);
+
+            if (!validationResult.IsValid)
+            {
+                var errorMessages = string.Join("; ", validationResult.Errors.Select(e => e.ErrorMessage));
+                throw new ValidationException($"Validation failed: {errorMessages}");
+            }
+            var exports = await _context.Exports.AsNoTracking().Include(e => e.ExportDetails)
+                                        .Where(e => e.InventoryId == request.inventoryId)
+                                        .Select(e => new ExportResponse(
+                                                        e.ExportId,
+                                                        e.InventoryId ?? string.Empty,
+                                                        e.ExportDate ?? DateOnly.MinValue,
+                                                        e.ExportDetails.Select(d => new ExportDetailResponse(
+                                                            d.ShoeDetailId,
+                                                            d.Quantity ?? 0,
+                                                            d.ShoeDetail.Shoe.Name,
+                                                            d.ShoeDetail.Shoe.Brand,
+                                                            d.ShoeDetail.Size ?? 0,
+                                                            d.ShoeDetail.Color
+                                                        )).ToList()
+                                        )).ToListAsync();
+
+
+            return exports;
         }
 
     }
