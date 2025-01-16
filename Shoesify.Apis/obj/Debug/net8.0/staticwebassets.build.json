@@ -1,12 +1,11 @@
 {
   "Version": 1,
-  "Hash": "nh6+WjlqSBRSGSQXayaza7fG2oOz/UQf7wmk36XbKo4=",
+  "Hash": "IckDDYDofpV5SkK8pXNRps8xAwm9r9S0HEueeXadxpA=",
   "Source": "Shoesify.Apis",
   "BasePath": "_content/Shoesify.Apis",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "Assets": []
 }
