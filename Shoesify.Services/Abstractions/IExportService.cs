@@ -12,5 +12,7 @@ namespace Shoesify.Services.Abstractions
     {
         public Task<int> CreateExport(CreateExportRequest request);
         public Task<ExportResponse> ReadExport(string exportId);
+
+        public Task<List<ExportResponse>> GetAllExportOfInventory(GetAllExportRequest request);
     }
 }
