@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Shoesify.Apis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35396d0f11c9578e4ffaaae8cb9c9115393254a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b4a8abfba506538bd5cd44142cad4a4a31f7d6c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Shoesify.Apis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Shoesify.Apis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
