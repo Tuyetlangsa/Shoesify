@@ -56,5 +56,27 @@ namespace Shoesify.Apis.Controllers
 
         }
 
+        [HttpGet("inventory/{inventoryId}")]
+        public async Task<IActionResult> GetAllImportByInventoryId(string inventoryId)
+        {
+            try
+            {
+                GetAllImportRequest request = new GetAllImportRequest(inventoryId);   
+                var result = await _service.GetAllImportOfInventory(request);
+                if (result == null || result.Count == 0)
+                {
+                    return NotFound(new ApiResponse()
+                    {
+                        Message = "No imports found for the given inventory ID"
+                    });
+                }
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return StatusCode(500, new ApiResponse() { Message = e.Message });
+            }
+        }
+
     }
 }

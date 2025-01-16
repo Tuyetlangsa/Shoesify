@@ -101,5 +101,31 @@ namespace Shoesify.Services
             return import;
 
         }
+
+
+        public async Task<List<ImportResponse>> GetAllImportOfInventory (GetAllImportRequest request)
+        {
+            var validator = new GetAllImportRequestValidator();
+            var validationResult = await validator.ValidateAsync(request);
+
+            if (!validationResult.IsValid)
+            {
+                var errorMessages = string.Join("; ", validationResult.Errors.Select(e => e.ErrorMessage));
+                throw new ValidationException($"Validation failed: {errorMessages}");
+            }
+            var imports = await _context.Imports
+                                .Where(i => i.InventoryId == request.inventoryId)
+                                .Select(i => new ImportResponse
+                                    {
+                                        ImportID = i.ImportId,
+                                        InventoryID = i.InventoryId,
+                                        ImportDate = i.ImportDate,
+                                        SupplierID = i.SupplierId,
+                                        
+                                    })
+                                .ToListAsync();
+
+            return imports;
+        }
     }
 }
