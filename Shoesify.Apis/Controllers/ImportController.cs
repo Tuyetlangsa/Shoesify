@@ -56,7 +56,7 @@ namespace Shoesify.Apis.Controllers
 
         }
 
-        [HttpGet("inventory/{inventoryId}")]
+        [HttpGet("/imports/inventory/{inventoryId}")]
         public async Task<IActionResult> GetAllImportByInventoryId(string inventoryId)
         {
             try
