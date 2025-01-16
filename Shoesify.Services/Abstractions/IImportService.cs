@@ -13,5 +13,7 @@ namespace Shoesify.Services.Abstractions
     {
         public Task<int> CreateImport(ImportRequest importRequest);
         public Task<Import> GetImportByID(string id);
+
+        public Task<List<ImportResponse>> GetAllImportOfInventory(GetAllImportRequest request);
     }
 }
