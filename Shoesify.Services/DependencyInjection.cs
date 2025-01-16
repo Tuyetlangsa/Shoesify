@@ -1,9 +1,12 @@
 using System.Text;
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Shoesify.Services.Abstractions;
+using Shoesify.Services.Requests;
+using Shoesify.Services.Validators;
 
 namespace Shoesify.Services;
 
@@ -38,5 +41,13 @@ public static class DependencyInjection
     public static void AddServices(this IHostApplicationBuilder builder)
     {
         builder.Services.AddScoped<IInventoryService, InventoryService>();
+        builder.Services.AddScoped<IImportService, ImportService>();
+    }
+
+    public static void AddValidators(this IHostApplicationBuilder builder)
+    {
+        builder.Services.AddScoped<IValidator<CreateInventoryRequest>, CreateInventoryRequestValidator>();
+        builder.Services.AddScoped<IValidator<ImportRequest>, CreateImportValidation>();
+        builder.Services.AddScoped<IValidator<ImportDetailRequest>, CreateImportDetailValidation>();
     }
 }

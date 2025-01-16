@@ -39,13 +39,13 @@ public partial class ShoesifyContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("server =(local); database = Shoesify;uid=sa;pwd=12345678;TrustServerCertificate=true;");
+        => optionsBuilder.UseSqlServer("server =(local); database = Shoesify;uid=sa;pwd=12345;TrustServerCertificate=true;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Category>(entity =>
         {
-            entity.HasKey(e => e.CategoryId).HasName("PK__Categori__19093A2BC9B8454B");
+            entity.HasKey(e => e.CategoryId).HasName("PK__Categori__19093A2B12B192DB");
 
             entity.Property(e => e.CategoryId)
                 .HasMaxLength(10)
@@ -56,7 +56,7 @@ public partial class ShoesifyContext : DbContext
 
         modelBuilder.Entity<Export>(entity =>
         {
-            entity.HasKey(e => e.ExportId).HasName("PK__Export__E5C997A48DAFA027");
+            entity.HasKey(e => e.ExportId).HasName("PK__Export__E5C997A45545D759");
 
             entity.ToTable("Export");
 
@@ -71,12 +71,12 @@ public partial class ShoesifyContext : DbContext
 
             entity.HasOne(d => d.Inventory).WithMany(p => p.Exports)
                 .HasForeignKey(d => d.InventoryId)
-                .HasConstraintName("FK__Export__Inventor__6754599E");
+                .HasConstraintName("FK__Export__Inventor__68487DD7");
         });
 
         modelBuilder.Entity<ExportDetail>(entity =>
         {
-            entity.HasKey(e => new { e.ExportId, e.ShoeDetailId }).HasName("PK__ExportDe__93CAAE7F5DFD394E");
+            entity.HasKey(e => new { e.ExportId, e.ShoeDetailId }).HasName("PK__ExportDe__93CAAE7FF33A1670");
 
             entity.ToTable("ExportDetail");
 
@@ -92,17 +92,17 @@ public partial class ShoesifyContext : DbContext
             entity.HasOne(d => d.Export).WithMany(p => p.ExportDetails)
                 .HasForeignKey(d => d.ExportId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ExportDet__Expor__6A30C649");
+                .HasConstraintName("FK__ExportDet__Expor__6B24EA82");
 
             entity.HasOne(d => d.ShoeDetail).WithMany(p => p.ExportDetails)
                 .HasForeignKey(d => d.ShoeDetailId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ExportDet__ShoeD__6B24EA82");
+                .HasConstraintName("FK__ExportDet__ShoeD__6C190EBB");
         });
 
         modelBuilder.Entity<Import>(entity =>
         {
-            entity.HasKey(e => e.ImportId).HasName("PK__Import__8697678A5624A556");
+            entity.HasKey(e => e.ImportId).HasName("PK__Import__8697678AC8B6FDE7");
 
             entity.ToTable("Import");
 
@@ -110,19 +110,27 @@ public partial class ShoesifyContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("ImportID");
+            entity.Property(e => e.InventoryId)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("InventoryID");
             entity.Property(e => e.SupplierId)
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("SupplierID");
 
+            entity.HasOne(d => d.Inventory).WithMany(p => p.Imports)
+                .HasForeignKey(d => d.InventoryId)
+                .HasConstraintName("FK__Import__Inventor__60A75C0F");
+
             entity.HasOne(d => d.Supplier).WithMany(p => p.Imports)
                 .HasForeignKey(d => d.SupplierId)
-                .HasConstraintName("FK__Import__Supplier__60A75C0F");
+                .HasConstraintName("FK__Import__Supplier__619B8048");
         });
 
         modelBuilder.Entity<ImportDetail>(entity =>
         {
-            entity.HasKey(e => new { e.ImportId, e.ShoeDetailId }).HasName("PK__ImportDe__F0945E5178C9AC10");
+            entity.HasKey(e => new { e.ImportId, e.ShoeDetailId }).HasName("PK__ImportDe__F0945E51BD08F1BD");
 
             entity.ToTable("ImportDetail");
 
@@ -138,21 +146,21 @@ public partial class ShoesifyContext : DbContext
             entity.HasOne(d => d.Import).WithMany(p => p.ImportDetails)
                 .HasForeignKey(d => d.ImportId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ImportDet__Impor__6383C8BA");
+                .HasConstraintName("FK__ImportDet__Impor__6477ECF3");
 
             entity.HasOne(d => d.ShoeDetail).WithMany(p => p.ImportDetails)
                 .HasForeignKey(d => d.ShoeDetailId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ImportDet__ShoeD__6477ECF3");
+                .HasConstraintName("FK__ImportDet__ShoeD__656C112C");
         });
 
         modelBuilder.Entity<Inventory>(entity =>
         {
-            entity.HasKey(e => e.InventoryId).HasName("PK__Inventor__F5FDE6D39C1BF1C9");
+            entity.HasKey(e => e.InventoryId).HasName("PK__Inventor__F5FDE6D3D3CA1B29");
 
             entity.ToTable("Inventory");
 
-            entity.HasIndex(e => e.UserId, "UQ__Inventor__1788CCAD1EDD2F11").IsUnique();
+            entity.HasIndex(e => e.UserId, "UQ__Inventor__1788CCAD012C628C").IsUnique();
 
             entity.Property(e => e.InventoryId)
                 .HasMaxLength(10)
@@ -173,7 +181,7 @@ public partial class ShoesifyContext : DbContext
 
         modelBuilder.Entity<Shoe>(entity =>
         {
-            entity.HasKey(e => e.ShoeId).HasName("PK__Shoes__5A835415C84B4E38");
+            entity.HasKey(e => e.ShoeId).HasName("PK__Shoes__5A8354151709F69E");
 
             entity.Property(e => e.ShoeId)
                 .HasMaxLength(10)
@@ -195,7 +203,7 @@ public partial class ShoesifyContext : DbContext
 
         modelBuilder.Entity<ShoesDetail>(entity =>
         {
-            entity.HasKey(e => e.ShoeDetailId).HasName("PK__ShoesDet__60339DB6DDBA6B11");
+            entity.HasKey(e => e.ShoeDetailId).HasName("PK__ShoesDet__60339DB61C4FE1CB");
 
             entity.ToTable("ShoesDetail");
 
@@ -217,7 +225,7 @@ public partial class ShoesifyContext : DbContext
 
         modelBuilder.Entity<Stock>(entity =>
         {
-            entity.HasKey(e => new { e.ShoeDetailId, e.InventoryId }).HasName("PK__Stock__4F6C43DB95BD5A25");
+            entity.HasKey(e => new { e.ShoeDetailId, e.InventoryId }).HasName("PK__Stock__4F6C43DB9256D1C8");
 
             entity.ToTable("Stock");
 
@@ -243,7 +251,7 @@ public partial class ShoesifyContext : DbContext
 
         modelBuilder.Entity<Supplier>(entity =>
         {
-            entity.HasKey(e => e.SupplierId).HasName("PK__Supplier__4BE666945AD71D16");
+            entity.HasKey(e => e.SupplierId).HasName("PK__Supplier__4BE666947047A760");
 
             entity.ToTable("Supplier");
 
@@ -263,7 +271,7 @@ public partial class ShoesifyContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__User__1788CCACAEB9DA31");
+            entity.HasKey(e => e.UserId).HasName("PK__User__1788CCAC99CEA8F2");
 
             entity.ToTable("User");
 

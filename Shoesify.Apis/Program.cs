@@ -31,6 +31,7 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.AddAuthenticationServices();
+        builder.AddValidators();
         builder.AddServices();
         var app = builder.Build();
 
