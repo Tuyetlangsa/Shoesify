@@ -46,6 +46,7 @@ public static class DependencyInjection
         builder.Services.AddScoped<IExportService, ExportService>();
 
         builder.Services.AddScoped<IImportService, ImportService>();
+        builder.Services.AddScoped<IStockService, StockService>();
 
     }
 

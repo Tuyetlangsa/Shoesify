@@ -42,7 +42,7 @@ public partial class ShoesifyContext : DbContext
 
 
 
-        => optionsBuilder.UseSqlServer("server =(local); database = Shoesify;uid=sa;pwd=12345678;TrustServerCertificate=true;");
+        => optionsBuilder.UseSqlServer("server =(local); database = Shoesify;uid=sa;pwd=12345;TrustServerCertificate=true;");
 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
