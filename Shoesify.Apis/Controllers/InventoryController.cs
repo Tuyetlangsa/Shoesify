@@ -72,6 +72,33 @@ namespace Shoesify.Apis.Controllers
             }
         }
 
+        // GET: api/inventory/GetAnInventory
+        [HttpGet("GetAnInventory")]
+        public async Task<ActionResult<Inventory>> GetAnInventory(string id)
+        {
+            try
+            {
+                var inventory = await _inventoryService.GetAnInventory(id);
+
+                if (inventory == null)
+                {
+                    return NotFound("Cannot found inventory!");
+                }
+                return Ok(inventory);
+            }
+            catch (UnauthorizedAccessException ex)
+            {
+                return Unauthorized(new { message = ex.Message });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new ApiResponse()
+                {
+                    Message = ex.Message
+                });
+            }
+        }
+
         // PUT: api/inventory/Update
         [HttpPut("Update")]
         public async Task<ActionResult> UpdateInventory(UpdateInventoryRequest updatedInventory)

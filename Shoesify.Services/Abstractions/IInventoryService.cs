@@ -12,6 +12,7 @@ namespace Shoesify.Services.Abstractions
     {
         public Task<int> CreateAnInventory(CreateInventoryRequest inventory);
         public Task<List<Inventory>> ReadAllInventory();
+        public Task<Inventory> GetAnInventory(string id);
         public Task<bool> UpdateInventory(UpdateInventoryRequest updatedInventory);
         public Task<bool> DisableInventory(DisableInventoryRequest inventory);
     }

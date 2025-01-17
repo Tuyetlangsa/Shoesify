@@ -37,6 +37,10 @@ public class Program
         builder.Services.AddScoped<UserService, UserService>();
         builder.AddValidators();
         builder.AddServices();
+        builder.Services.AddControllers().AddJsonOptions(options =>
+        {
+            options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
+        });
         builder.Services.AddCors(options =>
         {
             options.AddDefaultPolicy(policy =>

@@ -52,7 +52,24 @@ namespace Shoesify.Services
 
         public async Task<List<Inventory>> ReadAllInventory()
         {
-            return await _context.Inventories.ToListAsync();
+            return await _context.Inventories
+                .Include(i => i.Stocks) 
+                .Include(i => i.Imports) 
+                    .ThenInclude(im => im.ImportDetails) 
+                .Include(i => i.Exports) 
+                    .ThenInclude(ex => ex.ExportDetails) 
+                .ToListAsync();
+        }
+
+        public async Task<Inventory> GetAnInventory(string id)
+        {
+            return await _context.Inventories
+                .Include(i => i.Stocks)
+                .Include(i => i.Imports)
+                    .ThenInclude(im => im.ImportDetails)
+                .Include(i => i.Exports)
+                    .ThenInclude(ex => ex.ExportDetails)
+                .FirstOrDefaultAsync(i => i.InventoryId == id);
         }
 
         public async Task<bool> UpdateInventory(UpdateInventoryRequest updatedInventory)
