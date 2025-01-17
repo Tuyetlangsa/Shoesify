@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Shoesify.Entities.Models;
 
-namespace Shoesify.Services.UserService;
+namespace Shoesify.Services;
 
 public class JwtTokenService
 {
@@ -42,16 +42,16 @@ public class JwtTokenService
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
-
-    public (int userId, string role) GetIdAndRoleFromToken()
+    
+    public (string userId, string role) GetIdAndRoleFromToken()
     {
         var user = _httpContextAccessor.HttpContext!.User;
-        var userId = user.FindFirst("id")?.Value;
-        var role = user.FindFirst(ClaimTypes.Role)?.Value;
+        var userId = user.FindFirst(ClaimTypes.NameIdentifier)?.Value; // Dùng NameIdentifier
+        var role = user.FindFirst(ClaimTypes.Role)?.Value; // Role đã đúng
 
         if (string.IsNullOrEmpty(userId) || string.IsNullOrEmpty(role))
             throw new UnauthorizedAccessException("Invalid Token Claims");
-        return (int.Parse(userId), role);
-    }
 
+        return (userId, role);
+    }
 }

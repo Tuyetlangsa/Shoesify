@@ -3,6 +3,7 @@ using Shoesify.Entities.Models;
 using Shoesify.Services.Abstractions;
 using Shoesify.Services.Requests;
 using Shoesify.Services.Responses;
+using Shoesify.Services.UserService;
 using Shoesify.Services.Validators;
 using System;
 using System.Collections.Generic;

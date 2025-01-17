@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Shoesify.Services.Abstractions;
 using Shoesify.Services.Requests;
+using Shoesify.Services.UserService;
 using Shoesify.Services.Validators;
 
 namespace Shoesify.Services;
